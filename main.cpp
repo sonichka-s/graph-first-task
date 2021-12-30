@@ -1,6 +1,9 @@
 #include "iostream"
 #include "IGraph.h"
 #include "ListGraph.h"
+#include "MatrixGraph.h"
+#include "SetGraph.h"
+#include "ArcGraph.h"
 #include "vector"
 
 using namespace std;
@@ -37,8 +40,32 @@ int main(int arc, const char* argv[]) {
     graph->AddEdge(3, 4);
     graph->AddEdge(4, 2);
 
+
+    cout << "ListGraph: " << std::endl;
     dfs(*graph, [](int v) {
         std::cout << v << std::endl;
+    });
+
+
+    MatrixGraph matrixGraph(*graph);
+
+    cout << "MatrixGraph: " << std::endl;
+    dfs(matrixGraph, [](int v) {
+        std::cout << v << std::endl;
+    });
+
+    SetGraph setGraph(*graph);
+
+    cout << "SetGraph: " << std::endl;
+    dfs(setGraph, [](int v) {
+        std::cout << "SetGraph: " << v << std::endl;
+    });
+
+    ArcGraph arcGraph(*graph);
+
+    cout << "ArcGraph: " << std::endl;
+    dfs(setGraph, [](int v) {
+        std::cout << "ArcGraph: " << v << std::endl;
     });
 
     delete graph;

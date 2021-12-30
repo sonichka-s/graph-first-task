@@ -18,7 +18,9 @@ ListGraph::ListGraph(int vertices_count) {
 }
 
 ListGraph::ListGraph(const IGraph &graph) {
-
+    for (int i = 0; i < vertices.size(); ++i) {
+        vertices[i] = graph.GetNextVertices(i);
+    }
 }
 
 std::vector<int> ListGraph::GetNextVertices(int vertex) const {

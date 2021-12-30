@@ -4,28 +4,44 @@
 
 #include "SetGraph.h"
 
+SetGraph::SetGraph(int vertices_count) {
+    vertices = new std::set<int>[verticesCount];
+}
+
+SetGraph::SetGraph(const IGraph &graph) {
+    vertices = new std::set<int>[verticesCount];
+
+    for (int parent = 0; parent < verticesCount; ++parent) {
+        std::vector<int> nextVertices = graph.GetNextVertices(parent);
+        for (const auto& child : nextVertices)
+            AddEdge(parent, child);
+    }
+}
+
 void SetGraph::AddEdge(int from, int to) {
-    vertices[from].push_back(to);
+    vertices[from].insert(to);
 }
 
 int SetGraph::VerticesCount() const {
-    return vertices.size();
+    return verticesCount;
 }
 
 std::vector<int> SetGraph::GetNextVertices(int vertex) const {
-    std::vector<int> result(vertices[vertex].begin(), vertices[vertex].end());
+    std::vector<int> result;
+
+    for (int next : vertices[vertex]) {
+        result.push_back(next);
+    }
     return result;
 }
 
 std::vector<int> SetGraph::GetPrevVertices(int vertex) const {
     std::vector<int> result;
 
-    for (int parent = 0; parent < vertices.size(); parent++) {
-        for (auto& child : vertices[parent]) {
-            if (child == vertex) {
-                result.push_back(parent);
-                break;
-            }
+    for (int parent = 0; parent < verticesCount; parent++) {
+        auto child = vertices[parent].find(vertex);
+        if (child != vertices[parent].end()) {
+            result.push_back(parent);
         }
     }
 

@@ -1,8 +1,8 @@
-ListGraph/CMakeFiles/ListGraph.dir/ListGraph.o: \
- /home/sonichka/Documents/graph-first-task/ListGraph/ListGraph.cpp \
+ArcGraph/CMakeFiles/ArcGraph.dir/ArcGraph.o: \
+ /home/sonichka/Documents/graph-first-task/ArcGraph/ArcGraph.cpp \
  /usr/include/stdc-predef.h \
- /home/sonichka/Documents/graph-first-task/ListGraph/ListGraph.h \
- /home/sonichka/Documents/graph-first-task/ListGraph/../IGraph.h \
+ /home/sonichka/Documents/graph-first-task/ArcGraph/ArcGraph.h \
+ /home/sonichka/Documents/graph-first-task/ArcGraph/../IGraph.h \
  /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
