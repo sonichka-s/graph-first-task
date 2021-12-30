@@ -1,0 +1,2 @@
+/usr/bin/ar qc libListGraph.a CMakeFiles/ListGraph.dir/ListGraph.o
+/usr/bin/ranlib libListGraph.a

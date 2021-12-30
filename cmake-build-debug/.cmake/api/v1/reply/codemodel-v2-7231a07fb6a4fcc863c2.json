@@ -1,0 +1,143 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "ListGraph",
+					"jsonFile" : "directory-ListGraph-Debug-0a0e5dc7aaad4dd68f6a.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ListGraph",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "MatrixGraph",
+					"jsonFile" : "directory-MatrixGraph-Debug-7645c34e626c45a1b7cb.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MatrixGraph",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "SetGraph",
+					"jsonFile" : "directory-SetGraph-Debug-6580455cf093327bbb0f.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SetGraph",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "ArcGraph",
+					"jsonFile" : "directory-ArcGraph-Debug-49e23adbfae6f0a38ba5.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ArcGraph",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "ArcGraph::@653eeea06a02f676d5b0",
+					"jsonFile" : "target-ArcGraph-Debug-ccfa95ba5ad229684c8b.json",
+					"name" : "ArcGraph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ListGraph::@86e3cfa5bb004c9cd51c",
+					"jsonFile" : "target-ListGraph-Debug-b5202fe20496ce894360.json",
+					"name" : "ListGraph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MatrixGraph::@380d6e556fd0fa52ab65",
+					"jsonFile" : "target-MatrixGraph-Debug-bc9c9dd790d8aa69507f.json",
+					"name" : "MatrixGraph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SetGraph::@905981231d9164db9ae5",
+					"jsonFile" : "target-SetGraph-Debug-bfc0fb6ca47d28ed17ca.json",
+					"name" : "SetGraph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-7ef1e667b98baa9895d1.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sonichka/Documents/graph-first-task/cmake-build-debug",
+		"source" : "/home/sonichka/Documents/graph-first-task"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

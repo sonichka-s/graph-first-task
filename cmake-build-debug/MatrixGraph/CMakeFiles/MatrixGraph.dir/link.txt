@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMatrixGraph.a CMakeFiles/MatrixGraph.dir/MatrixGraph.o
+/usr/bin/ranlib libMatrixGraph.a

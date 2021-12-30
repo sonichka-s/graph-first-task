@@ -1,0 +1,2 @@
+/usr/bin/ar qc libArcGraph.a CMakeFiles/ArcGraph.dir/ArcGraph.o
+/usr/bin/ranlib libArcGraph.a

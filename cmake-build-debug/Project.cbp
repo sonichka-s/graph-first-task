@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ListGraph\;CMake Files\MatrixGraph\;CMake Files\SetGraph\;CMake Files\ArcGraph\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/sonichka/Documents/graph-first-task/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sonichka/Documents/graph-first-task/ListGraph"/>
+					<Add directory="/home/sonichka/Documents/graph-first-task/MatrixGraph"/>
+					<Add directory="/home/sonichka/Documents/graph-first-task/SetGraph"/>
+					<Add directory="/home/sonichka/Documents/graph-first-task/ArcGraph"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/sonichka/Documents/graph-first-task/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sonichka/Documents/graph-first-task/ListGraph"/>
+					<Add directory="/home/sonichka/Documents/graph-first-task/MatrixGraph"/>
+					<Add directory="/home/sonichka/Documents/graph-first-task/SetGraph"/>
+					<Add directory="/home/sonichka/Documents/graph-first-task/ArcGraph"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ListGraph">
+				<Option output="/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/libListGraph.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sonichka/Documents/graph-first-task/ListGraph"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/Makefile&quot;  VERBOSE=1 ListGraph"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ListGraph/fast">
+				<Option output="/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/libListGraph.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sonichka/Documents/graph-first-task/ListGraph"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/Makefile&quot;  VERBOSE=1 ListGraph/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatrixGraph">
+				<Option output="/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/libMatrixGraph.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sonichka/Documents/graph-first-task/MatrixGraph"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/Makefile&quot;  VERBOSE=1 MatrixGraph"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatrixGraph/fast">
+				<Option output="/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/libMatrixGraph.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sonichka/Documents/graph-first-task/MatrixGraph"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/Makefile&quot;  VERBOSE=1 MatrixGraph/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SetGraph">
+				<Option output="/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/libSetGraph.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sonichka/Documents/graph-first-task/SetGraph"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/Makefile&quot;  VERBOSE=1 SetGraph"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SetGraph/fast">
+				<Option output="/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/libSetGraph.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sonichka/Documents/graph-first-task/SetGraph"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/Makefile&quot;  VERBOSE=1 SetGraph/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArcGraph">
+				<Option output="/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/libArcGraph.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sonichka/Documents/graph-first-task/ArcGraph"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/Makefile&quot;  VERBOSE=1 ArcGraph"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArcGraph/fast">
+				<Option output="/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/libArcGraph.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sonichka/Documents/graph-first-task/ArcGraph"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/Makefile&quot;  VERBOSE=1 ArcGraph/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/ArcGraph/ArcGraph.cpp">
+			<Option target="ArcGraph"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/ArcGraph/ArcGraph.h">
+			<Option target="ArcGraph"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/ListGraph/ListGraph.cpp">
+			<Option target="ListGraph"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/ListGraph/ListGraph.h">
+			<Option target="ListGraph"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/MatrixGraph/MatrixGraph.cpp">
+			<Option target="MatrixGraph"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/MatrixGraph/MatrixGraph.h">
+			<Option target="MatrixGraph"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/SetGraph/SetGraph.cpp">
+			<Option target="SetGraph"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/SetGraph/SetGraph.h">
+			<Option target="SetGraph"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/ListGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ListGraph\"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/MatrixGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MatrixGraph\"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/SetGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SetGraph\"/>
+		</Unit>
+		<Unit filename="/home/sonichka/Documents/graph-first-task/ArcGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ArcGraph\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

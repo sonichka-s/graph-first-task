@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSetGraph.a CMakeFiles/SetGraph.dir/SetGraph.o
+/usr/bin/ranlib libSetGraph.a

@@ -1,0 +1,15 @@
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/CMakeFiles/main.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/CMakeFiles/rebuild_cache.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/CMakeFiles/edit_cache.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/ListGraph/CMakeFiles/ListGraph.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/CMakeFiles/rebuild_cache.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/CMakeFiles/edit_cache.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/MatrixGraph/CMakeFiles/MatrixGraph.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/CMakeFiles/rebuild_cache.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/CMakeFiles/edit_cache.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/SetGraph/CMakeFiles/SetGraph.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/CMakeFiles/rebuild_cache.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/CMakeFiles/edit_cache.dir
+/home/sonichka/Documents/graph-first-task/cmake-build-debug/ArcGraph/CMakeFiles/ArcGraph.dir
